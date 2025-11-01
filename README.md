@@ -7,3 +7,4 @@ Kelly Amanda Chiara Flores
 
 ## INDICE
 - **[Clase 1](clase1/)**
+- **[Clase 2](clase2/)**
