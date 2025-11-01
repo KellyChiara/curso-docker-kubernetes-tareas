@@ -11,39 +11,39 @@
 ```bash
 docker run --name mi-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=dF4c1L -d mysql
 ```
-![Ejecución container](/screenshots/image1.png)
+![Ejecución container](./screenshots/image1.png)
 
 2. Comandos de verificación
 - Containers en ejecución
 ```bash
 docker ps
 ```
-![Verificación de containers en ejecución](/screenshots/image2.png)
+![Verificación de containers en ejecución](./screenshots/image2.png)
 
 - Logs del container
 ```bash
 docker logs mi-mysql
 ```
-![Verificación de logs del container](/screenshots/image3.png)
+![Verificación de logs del container](./screenshots/image3.png)
 
 3. Comandos de limpieza
 - Detener container
 ```bash
 docker stop mi-mysql
 ```
-![Detener container](/screenshots/image4.png)
+![Detener container](./screenshots/image4.png)
 
 - Eliminar container
 ```bash
 docker rm mi-mysql
 ```
-![Eliminar container](/screenshots/image5.png)
+![Eliminar container](./screenshots/image5.png)
 
 - Verificar existencia
 ```bash
 docker ps -a
 ```
-![Verificar container](/screenshots/image6.png)
+![Verificar container](./screenshots/image6.png)
 
 ### Explicación de comandos
 | Flag | Descripción |
